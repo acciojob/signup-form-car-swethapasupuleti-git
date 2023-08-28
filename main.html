@@ -11,14 +11,16 @@
 	<form id="post">
 		<label for="Name">Name</label>
 		<input id="name" type="text" required placeholder="Name"><br><br>
+		
 		<label for="email">Email</label>
 		<input id="email" type="email" required placeholder="email"><br><br>
-		<label for="Gender">Gender</label>
+		
 		<label>Gender:</label>
         <input type="radio" id="gender_m" name="gender" required>
         <label for="gender_m">Male</label>
         <input type="radio" id="gender_f" name="gender" required>
         <label for="gender_f">Female</label><br><br>
+		
 		<label for="cars">Car Brands:</label>
         <select id="cars" name="cars" required>
             <option value="" disabled selected>--Please choose an option--</option>
@@ -26,17 +28,25 @@
             <option value="chevrolet">Chevrolet</option>
             <option value="toyota">Toyota</option>
         </select><br><br>
+
+		<label for="age">Age:</label>
 		<input id="Age" type="Number" required placeholder="age"><br><br>
+		
 		<label for="DOB">DOB</label>
 		<input id="dob" type="Tel" required placeholder="xxx-xxx-xxxx"><br><br>
+		
 		<label for="number">Phone Number</label>
 		<input id="" type="tel" placeholder="Name"><br><br>
+		
 		<label for="password">Password</label>
 		<input id="password" type="password" required placeholder="password"><br><br>
-		<label for="tos">I agree to the TOS</label>
-		<input id="tos" type="Checkbox" required><br><br>
 		
-		<button type="submit">Submit</button>
+		<label>
+            <input type="checkbox" id="tos" name="tos" required>
+            I agree to the TOS
+        </label><br><br>
+		
+		<button type="submit">Sign Up</button>
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
